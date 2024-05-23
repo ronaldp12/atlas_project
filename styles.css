@@ -59,15 +59,15 @@ h1{
 }
 .btn-ini{
     display: flex;
-    width: 8%;
-    height: 4%;
+    width: 6rem;
+    height: 2rem;
     margin-left: 6rem;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background-color: aquamarine;
+    background-color: #01FEAD;
     font-weight: bold;
-    color: navy;
+    color: #182649;
     cursor: pointer;
 }
 .section-1{
@@ -138,7 +138,7 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background-color: rgb(42, 42, 42);
+    background-color: #192440;
     font-weight: bold;
     color: white;
     cursor: pointer;
@@ -212,9 +212,47 @@ h1{
     border-radius: 20px;
     background-color: white;
     font-weight: bold;
-    color: navy;
+    color: #182649;
     cursor: pointer;
-    border-color: navy;
-    border-bottom-color: navy;
+    border-color: #182649;
+    margin-top: 2rem;
+}
+.block-center{
+    width: 20%;
+    height: 80%;
+    background-color: #192440;
+    border-radius: 5px;
+}
+.text-3center{
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.mix-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.text-4center{
+    text-align: center;
+    margin: 0.8rem;
+    color: white;
+}
+.btn-3center{
+    display: flex;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #01FEAD;
+    font-weight: bold;
+    color: #182649;
+    cursor: pointer;
+    border-color:#182649;
+    border: none;
     margin-top: 2rem;
 }
